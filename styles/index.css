@@ -1,5 +1,93 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: grid;
+  height: 80vh;
+  gap: 24px;
+  padding: 24px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.items {
+  padding: 20px;
+  text-shadow: black 0px 0px 10px;
+}
+
+.item-1 {
+  background-color: #ff9dc2;
+  grid-area: 1 / 1 / span 3 / span 2;
+}
+
+.item-2 {
+  background-color: #fd7bad;
+  grid-area: 4 / 1 / span 3 / span 2;
+}
+
+.item-3 {
+  background-color: #ff5b9a;
+  grid-area: 7 / 1 / span 4 / span 2;
+}
+
+.item-4 {
+  background-color: #fc3b85;
+  grid-area: 1 / 3 / span 6 / span 2;
+}
+
+.item-5 {
+  background-color: #fd1870;
+  grid-area: 7 / 3 / span 2 / span 1;
+}
+
+.item-6 {
+  background-color: #fc0060;
+  grid-area: 9 / 3 / span 2 / span 1;
+}
+
+.item-7 {
+  background-color: #fd597c;
+  grid-area: 7 / 4 / span 4 / span 2;
+}
+
+.item-8 {
+  background-color: #ff3863;
+  grid-area: 7 / 6 / span 4 / span 1;
+}
+
+.item-9 {
+  background-color: #ff2353;
+  grid-area: 1 / 5 / span 2 / span 2;
+}
+
+.item-10 {
+  background-color: #ff1447;
+  grid-area: 3 / 5 / span 2 / span 2;
+}
+
+.item-11 {
+  background-color: #ff0037;
+  grid-area: 5 / 5 / span 2 / span 2;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 24px 34px;
+  background-color: #fa2f84;
+  height: 20vh;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
