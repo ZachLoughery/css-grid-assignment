@@ -12,7 +12,7 @@ body {
 
 .container {
   display: grid;
-  height: 80vh;
+  height: 85vh;
   gap: 24px;
   padding: 24px;
   grid-template-columns: repeat(6, 1fr);
@@ -84,7 +84,7 @@ footer {
   align-items: center;
   padding: 24px 34px;
   background-color: #fa2f84;
-  height: 20vh;
+  height: 15vh;
   font-size: 2em;
   font-style: normal;
   font-weight: 700;
